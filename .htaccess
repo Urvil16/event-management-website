@@ -1,0 +1,15 @@
+# Redirect Rules for Event Type Renames
+# wedding → IEEE, anniversaries → Google, birthdays → hecathon
+
+# Redirect old wedding.php to new IEEE.php
+Redirect 301 /wedding.php /IEEE.php
+
+# Redirect old event paths (if using /events/ structure)
+Redirect 301 /events/wedding /events/IEEE
+Redirect 301 /events/anniversaries /events/Google
+Redirect 301 /events/birthdays /events/hecathon
+
+# Optional: Redirect old booking paths
+Redirect 301 /book_wed.php /book_IEEE.php
+
+
