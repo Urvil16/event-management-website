@@ -1,91 +1,84 @@
-🎉 Event-Ally — Event Management Website
-🌐 HTML • 🎨 CSS • ⚙️ JavaScript • 📱 Responsive • 🚀 Vercel
+# Event Management Website
 
-🌟 About the Project
+A web-based Event Management System that allows users to browse events, register for them, and allows admins to manage events, registrations, and users through a simple dashboard. The system is designed for colleges, organizations, and small event planners to manage events digitally instead of manually.
 
-Event-Ally is a frontend-based event management website created to showcase different event services such as theme parties, corporate events, DJ events, and tech events.
-This project focuses on UI design, responsiveness, and smooth user experience.
-It is built as a static website and deployed on Vercel.
+## Badges
 
-🚀 Live Website
+![GitHub Repo](https://img.shields.io/badge/github-repo-blue?logo=github)
 
-👉 Live Link: (Paste your Vercel URL here)
-Example: https://event-ally.vercel.app
+![PHP](https://img.shields.io/badge/PHP-backend-777BB4?logo=php&logoColor=white)
 
-🧠 What This Website Does
+![MySQL](https://img.shields.io/badge/MySQL-database-4479A1?logo=mysql&logoColor=white)
 
-✅ Displays event management services
-✅ Shows information in a clean and professional layout
-✅ Works on mobile, tablet, and desktop
-✅ Allows users to contact via email (mailto)
-✅ Loads fast and is easy to navigate
+![HTML](https://img.shields.io/badge/HTML5-frontend-E34F26?logo=html5&logoColor=white)
 
-🛠️ Technologies Used
-Purpose	Technology
-Structure	HTML5
-Styling	CSS3
-Interactivity	JavaScript
-Hosting	Vercel
-Version Control	Git & GitHub
+![CSS](https://img.shields.io/badge/CSS3-style-1572B6?logo=css3&logoColor=white)
 
-❗ Note:
-This project does NOT use PHP or a backend server in production.
+![JavaScript](https://img.shields.io/badge/JavaScript-interactive-F7DF1E?logo=javascript&logoColor=black)
 
-📁 Project Structure
-Event-Ally/
-├── index.html        # Main webpage
-├── css/
-│   └── style.css     # Website styles
-├── js/
-│   └── script.js     # JavaScript functionality
-├── images/           # Images and icons
-└── README.md
 
-▶️ How to Run the Project
-Method 1: Simple Way
 
-Open index.html in your browser
 
-Method 2: Better Way (Recommended)
+## Features
 
-Open project in VS Code
+- User registration and login system
+- Browse upcoming and past events
+- Event registration with form validation
+- Admin panel to create, update, and delete events
+- View and manage event registrations
+- Responsive design for mobile and desktop
+- Secure form handling and database interaction
 
-Use Live Server extension
 
-🌍 Deployment
 
-This website is deployed on Vercel.
+## Tech Stack
 
-Steps:
+- Frontend: HTML, CSS, JavaScript
+- Backend: PHP
+- Database: MySQL
+- Tools: Git, VS Code
 
-Push project to GitHub
+## Installation
 
-Go to vercel.com
+1. Clone the repository:
+   git clone https://github.com/Urvil16/event-management-website.git
 
-Import your repository
+2. Move the project into your local server directory (e.g. htdocs for XAMPP).
 
-Select Other as framework
+3. Import the database:
+   - Open phpMyAdmin
+   - Create a database named `event_management`
+   - Import the provided SQL file
 
-Click Deploy
+4. Configure database connection in config.php
 
-🌱 Future Improvements
+5. Start Apache and MySQL and open:
+   http://localhost/event-management-website
 
-🔐 Backend using PHP or Node.js
-🗓️ Event booking system
-🧑‍💼 Admin panel
-💳 Payment integration
+## Usage/Examples
 
-👨‍💻 Author
+- Users can sign up and browse available events.
+- Users can register for events using the online form.
+- Admins can log in to manage events and view registrations.
 
-Urvil Panchal
-🎓 Computer Engineering Student
 
-📄 License
 
-This project is licensed under the MIT License.
+## Future Inprovement
 
-⚠️ Important Note
+- Online payment integration
+- Email notifications for registrations
+- Role-based access (Admin, Organizer, User)
+- Event analytics dashboard
 
-This website is created for learning, portfolio, and demonstration purposes only.
+## Authors
 
-✨ Event-Ally — Simple, clean, and professional event management website ✨
+- Urvil Panchal — Developer
+
+## Acknowledgements
+
+This project was developed as part of an academic and personal learning initiative to understand full-stack web development using PHP and MySQL.
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
